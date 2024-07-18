@@ -1,0 +1,8 @@
+.container {display: flex;}
+.col1 {flex-basis:50%;
+background-color: blue;
+margin: 5px;}
+.col2 {flex-basis: 50%;
+background-color: cadetblue;
+margin: 5px;}
+.img1 {float: left;}

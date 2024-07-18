@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    color:brown;
+    font-family:cursive;
+}
+.button:hover {background-color: darkgray;
+    color:dimgrey;
+width: 200px;}
+.row{
+    display: flex;
+}
+
+.col1 {
+    float: left;
+    flex: 50%;
+    height: 100px;
+    
+  }
+
+  .col2 {
+    float: right;
+    flex: 50%;
+    
+
+
+  }
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+footer {
+  text-align: center;
+}

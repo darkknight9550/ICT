@@ -1,0 +1,16 @@
+header {text-align: center;
+color: blueviolet;}
+
+body {font-size: larger;}
+
+.container {display: flex;
+width: fit-content;
+height: fit-content;}
+
+.col1 {flex-basis:50%;
+    margin: 5px;}
+.col2 {flex-basis: 50%;
+    margin: 5px;}
+
+footer {text-align: center;
+font-size: larger;}

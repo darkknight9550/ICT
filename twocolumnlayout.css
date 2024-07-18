@@ -1,0 +1,31 @@
+header {text-align: center;}
+
+
+
+.col1 {
+    float: left;
+    width: 50%;
+    height: 100px; /* Should be removed. Only for demonstration */
+    color: brown;
+    background-color: aquamarine;
+  }
+
+  .col2 {
+    float: right;
+    width: 50%;
+    height: 900px; /* Should be removed. Only for demonstration */
+    margin-left: 600px;
+    color: blue;
+    background-color: blueviolet;
+  }
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.co1>img {
+    width:"200px";
+    height: "400px";}
